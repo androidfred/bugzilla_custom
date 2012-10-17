@@ -13,6 +13,7 @@ HOW DO I INSTALL IT?
 HOW DOES IT WORK? (BASIC DESCRIPTION)
 HOW DOES IT WORK? (DETAILED DESCRIPTION)
 TERMINOLOGY: BUG VS TICKET
+RELATED OFFICIAL DOCUMENTATION FROM MOZILLA
 
 WHAT IS THIS?
 A Bugzilla template that presents "fake" custom ticket types and fields without actually requiring custom ticket types or fields in the data model.
@@ -73,3 +74,7 @@ Bugzilla uses the term "bug" per default. This is unfortunate, because Bugzilla 
 In fact, Bugzilla even comes with an "importance" option called "enhancement" which can be used to signal that a bug is really not a bug, but rather an "enhancement" (we prefer using the term "feature request" over the term "enhancement").
 
 The good news is that Bugzilla allows us to use another term than bug if we want to. The file variables.none.tmpl (example path: /var/lib/bugzilla3/template/en/default/global/variables.none.tmpl) allows us to switch to another term. A more fitting term, that is often used in other similar software, is "ticket". Make a backup copy of this file and simply edit the original file to switch to another term (we strongly recommend the term "ticket").
+
+RELATED OFFICIAL DOCUMENTATION FROM MOZILLA
+https://wiki.mozilla.org/Bugzilla:Customization_Guidelines
+http://www.bugzilla.org/docs/tip/en/html/cust-templates.html
