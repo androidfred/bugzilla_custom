@@ -1,5 +1,3 @@
-Bugzilla template that presents "fake" custom ticket types and fields without actually requiring custom ticket types or fields in the data model.
-
 TABLE OF CONTENTS:
 * WHAT IS THIS?
 * HOW DO I INSTALL IT?
